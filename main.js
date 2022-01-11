@@ -1,42 +1,12 @@
-const {
-WAConnection,
-MessageType,
-Presence,
-Mimetype,
-GroupSettingChange
-} = require('@adiwajshing/baileys')
-const fs = require('fs')
-const { banner, start, success } = require('./lib/functions')
-const { color } = require('./lib/color')
-require('./index.js')
-nocache('./index.js', module => console.log(`${module} Telah Di Update✓`))
-const starts = async (Lexxy = new WAConnection()) => {
-Lexxy.logger.level = 'warn'
-Lexxy.version = [2, 2143, 8]
-Lexxy.browserDescription = ["Lexxy Official", "safari", "windows 10"];
-console.log(banner.string)
-Lexxy.on('qr', () => {
-console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan bang'))})
-fs.existsSync('./session.json') && Lexxy.loadAuthInfo('./session.json')
-Lexxy.on('connecting', () => {
-start('2', 'Connecting...')})
-Lexxy.on('open', () => {
-success('2', 'Connected')})
-await Lexxy.connect({timeoutMs: 30*1000})
-fs.writeFileSync('./session.json', JSON.stringify(Lexxy.base64EncodedAuthInfo(), null, '\t'))
-Lexxy.on('chat-update', async (message) => {
-require('./index.js')(Lexxy, message)})}
-function nocache(module, cb = () => { }) {
-console.log('[ ! ]', `'${module}'`, 'DI Pantau Oleh Lexxy Official')
-fs.watchFile(require.resolve(module), async () => {
-await uncache(require.resolve(module))
-cb(module)})}
-function uncache(module = '.') {
-return new Promise((resolve, reject) => {
-try {
-delete require.cache[require.resolve(module)]
-resolve()
-} catch (e) {
-reject(e)}})}
+/*
+Base Ori : Lexxy Official
+Kalo Mau Recode Di Folder recode Di files ind.js
 
-starts()
+Mau Beli Yang No Enc? 
+Wa.me/6282279915237
+Wa.me/6285789004732
+
+Harga : 15k-30k
+*/
+
+const _0x86e634=_0xf768;(function(_0x2ed828,_0x259eef){const _0x49a3f3=_0xf768,_0x135f45=_0x2ed828();while(!![]){try{const _0x559264=parseInt(_0x49a3f3(0x1e7))/0x1+-parseInt(_0x49a3f3(0x1df))/0x2+-parseInt(_0x49a3f3(0x1e3))/0x3+parseInt(_0x49a3f3(0x1d4))/0x4*(-parseInt(_0x49a3f3(0x1cb))/0x5)+parseInt(_0x49a3f3(0x1eb))/0x6*(-parseInt(_0x49a3f3(0x1d5))/0x7)+-parseInt(_0x49a3f3(0x1e6))/0x8+parseInt(_0x49a3f3(0x1d8))/0x9*(parseInt(_0x49a3f3(0x1d3))/0xa);if(_0x559264===_0x259eef)break;else _0x135f45['push'](_0x135f45['shift']());}catch(_0x5e376c){_0x135f45['push'](_0x135f45['shift']());}}}(_0x53de,0x65377));const {WAConnection,MessageType,Presence,Mimetype,GroupSettingChange}=require(_0x86e634(0x1cc)),fs=require('fs'),{banner,start,success}=require('./lib/functions'),{color}=require(_0x86e634(0x1d6));require(_0x86e634(0x1e4)),nocache(_0x86e634(0x1e4),_0x2d0702=>console[_0x86e634(0x1ec)](_0x2d0702+_0x86e634(0x1e1)));const starts=async(_0x57bbf3=new WAConnection())=>{const _0x5d5b24=_0x86e634;_0x57bbf3[_0x5d5b24(0x1e2)]['level']='warn',_0x57bbf3[_0x5d5b24(0x1d1)]=[0x2,0x85f,0x8],_0x57bbf3[_0x5d5b24(0x1dc)]=['Lexxy\x20Official',_0x5d5b24(0x1d7),'windows\x2010'],console[_0x5d5b24(0x1ec)](banner['string']),_0x57bbf3['on']('qr',()=>{const _0x3b0958=_0x5d5b24;console[_0x3b0958(0x1ec)](color('[',_0x3b0958(0x1cf)),color('!','red'),color(']','white'),color(_0x3b0958(0x1d2)));}),fs['existsSync'](_0x5d5b24(0x1e8))&&_0x57bbf3[_0x5d5b24(0x1cd)](_0x5d5b24(0x1e8)),_0x57bbf3['on'](_0x5d5b24(0x1de),()=>{start('2','Connecting...');}),_0x57bbf3['on'](_0x5d5b24(0x1e9),()=>{const _0x359d19=_0x5d5b24;success('2',_0x359d19(0x1e5));}),await _0x57bbf3[_0x5d5b24(0x1da)]({'timeoutMs':0x1e*0x3e8}),fs[_0x5d5b24(0x1d0)](_0x5d5b24(0x1e8),JSON['stringify'](_0x57bbf3[_0x5d5b24(0x1ea)](),null,'\x09')),_0x57bbf3['on'](_0x5d5b24(0x1d9),async _0x22a105=>{const _0x4be981=_0x5d5b24;require(_0x4be981(0x1e4))(_0x57bbf3,_0x22a105);});};function nocache(_0x2c0ee1,_0x485e5c=()=>{}){const _0x2adeb3=_0x86e634;console[_0x2adeb3(0x1ec)]('[\x20!\x20]','\x27'+_0x2c0ee1+'\x27',_0x2adeb3(0x1db)),fs[_0x2adeb3(0x1e0)](require[_0x2adeb3(0x1ce)](_0x2c0ee1),async()=>{const _0x2e9f1d=_0x2adeb3;await uncache(require[_0x2e9f1d(0x1ce)](_0x2c0ee1)),_0x485e5c(_0x2c0ee1);});}function uncache(_0x4cf985='.'){return new Promise((_0x2fa39e,_0x3ab410)=>{const _0x2d2541=_0xf768;try{delete require[_0x2d2541(0x1dd)][require[_0x2d2541(0x1ce)](_0x4cf985)],_0x2fa39e();}catch(_0x5957ef){_0x3ab410(_0x5957ef);}});}starts();function _0xf768(_0x2dbc74,_0x2fd00f){const _0x53de21=_0x53de();return _0xf768=function(_0xf76817,_0x3bd5a4){_0xf76817=_0xf76817-0x1cb;let _0x2b72e3=_0x53de21[_0xf76817];return _0x2b72e3;},_0xf768(_0x2dbc74,_0x2fd00f);}function _0x53de(){const _0x17cc56=['./index.js','Connected','292192ruOfcf','284084eCczgy','./session.json','open','base64EncodedAuthInfo','6zvaxig','log','16120ykqGMD','@adiwajshing/baileys','loadAuthInfo','resolve','white','writeFileSync','version','\x20Scan\x20bang','13978610aPGOKr','232KbxyIa','2317924fUylWc','./lib/color','safari','9vNDQeA','chat-update','connect','DI\x20Pantau\x20Oleh\x20Lexxy\x20Official','browserDescription','cache','connecting','148048yfkpFW','watchFile','\x20Telah\x20Di\x20Update✓','logger','1916070AGQcGb'];_0x53de=function(){return _0x17cc56;};return _0x53de();}
