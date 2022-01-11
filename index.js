@@ -581,24 +581,23 @@ ${simbol} ${prefix}megumin
 ${simbol} ${prefix}shinobu
 
 ❏ 𝙈𝙖𝙠𝙚𝙧
-${simbol} ${prefix}tfire
-${simbol} ${prefix}nulis
-${simbol} ${prefix}tlight
-${simbol} ${prefix}gneon
 ${simbol} ${prefix}bneon
 ${simbol} ${prefix}matrix
-${simbol} ${prefix}text3d
-${simbol} ${prefix}sandw
-${simbol} ${prefix}leavest
-${simbol} ${prefix}gaming
-${simbol} ${prefix}crismes
-${simbol} ${prefix}lithgtext
-${simbol} ${prefix}blackpink
-${simbol} ${prefix}text3dbox
 ${simbol} ${prefix}breakwall
 ${simbol} ${prefix}dropwater
+${simbol} ${prefix}lithgtext
+${simbol} ${prefix}crismes
+${simbol} ${prefix}tfire
+${simbol} ${prefix}sandw
+${simbol} ${prefix}text3dbox
+${simbol} ${prefix}leavest
+${simbol} ${prefix}tlight
+${simbol} ${prefix}nulis
+${simbol} ${prefix}blackpink
 ${simbol} ${prefix}neon_light
+${simbol} ${prefix}gaming
 ${simbol} ${prefix}watercolor`
+
 mnu2 =`© Created By ${fakeyoi}`
 but = [
 { buttonId: `${prefix}info`, buttonText: { displayText: '️𝙄𝙉𝙁𝙊' }, type: 1 },
@@ -1078,14 +1077,12 @@ break
 case 'bneon':
 case 'matrix':
 case 'breakwall':
-case 'gneon':
 case 'dropwater':
 case 'lithgtext':
 case 'crismes':
 case 'tfire':
 case 'sandw':
 case 'text3dbox':
-case 'text3d':
 case 'leavest':
 case 'tlight':
 case 'nulis':
