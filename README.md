@@ -16,6 +16,14 @@ Simpel WhatsApp Bot
 > npm start
 ```
 
+## BUILPACK HEROKU
+
+```FFMPEG :```
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+
+```WEBP :```
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+
 ---------
 
 ## FOR WINDOWS/VPS/RDP USER
