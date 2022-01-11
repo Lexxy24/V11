@@ -27,6 +27,7 @@ Simpel WhatsApp Bot
 
 ```
 > git clone https://github.com/Lexxy24/V11
-> cd new base
-> npm install
+> cd V11
+> git clone https://github.com/Lexxy24/node_modules
+> npm start
 ```
